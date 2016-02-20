@@ -1,3 +1,5 @@
+// Modified by ky0604(김준기), rxxxxxx(박경욱), kyseshim(심경섭)
+
 /* global __dirname */
 /* global process */
 var app = require('app');  // Module to control application life.
