@@ -9,7 +9,11 @@ require('crash-reporter').start();
 // Prevent the computer from going to sleep
 const powerSaveBlocker = require('electron').powerSaveBlocker;
 var id = powerSaveBlocker.start('prevent-display-sleep');
-console.log(powerSaveBlocker.isStarted(id));//testing now(Will be deleted at 20th Feb. 2016)
+<<<<<<< HEAD
+console.log(powerSaveBlocker.isStarted(id));
+=======
+console.log(powerSaveBlocker.isStarted(id));
+>>>>>>> origin/master
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
